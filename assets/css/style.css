@@ -1,0 +1,205 @@
+@font-face {
+    font-family: Athene;
+    src: url(../font/Athene.otf);
+  }
+/* #002a5a, #efe8d7, #F4C4C4, #282b29, #7d2222, #DEB873, #D2D2D2, #1d8883 
+
+font-family: 'Open Sans', sans-serif;
+*/
+
+html{
+    scroll-behavior: smooth;
+}
+* {margin:0; padding:0}
+/* ---- globale Einstellungen --- */
+body {
+    font-size: 18px;
+    background: #efe8d7;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    line-height: 2em;
+}
+header ul {
+    padding: 8px 8%;
+    display: flex;
+    list-style-position: inside;
+    list-style-type:none;
+}
+header ul li:nth-child(1) {
+    font-family: 'Open Sans', sans-serif;
+    color: #002a5a;
+    padding: 0;
+    width: 100%;
+}
+header ul li:nth-child(2) {
+    font-family: 'Open Sans', sans-serif;
+    color: #002a5a;
+    text-transform: uppercase;
+}
+header {
+    border-bottom: 1px solid #002a5a;
+    background: rgba(239, 231, 215, 0.8);
+    position: fixed;
+    width: 100%;
+}
+h1 {
+    font-family: 'Athene';
+    font-size: 10rem;
+    font-weight: 200;
+    color: #002a5a;
+    text-align: center;
+}
+h1 span {
+    letter-spacing: -1.5rem;    
+}
+h2 {
+    font-family: 'Athene';
+    font-size: 9em;
+    font-weight: 100;
+    line-height: 1.2em;
+}
+h3 {
+    font-family: 'Athene';
+    font-size: 4.5em;
+    font-weight: 100;
+    line-height: 1.2em;
+    text-align: left;
+    padding: 1vh 0 22vh;
+}
+#temporary {
+    padding-top: 8vh;
+    padding-bottom: 18vh;
+}
+#temporary h1 {
+    margin: 0 8%;
+    border-bottom: 1px solid #002a5a;
+}
+#temporary img {
+    padding: 4rem 0 2.5rem;
+}
+#temporary p {
+    font-family: 'Open Sans', sans-serif;
+    color: #002a5a;
+    font-size: 2rem;
+}
+#temporary p span {
+    font-family: 'Athene';
+}
+/* ---- globale Klassen --- */
+.center {
+        display: block;
+        margin: 0 auto;
+        width: 35%;
+      }
+.Nr {
+    padding: 10vh 8% 6vh;
+}
+.txtR {
+    margin: 5vh 5% 15vh 55%;
+}
+.txtL {
+    margin: 5vh 55% 15vh 5%;
+    text-align: left;
+}
+/* ---- release Area --- */
+#release {
+    background: #F4C4C4;
+}
+/* ---- Tabelle --- */
+table {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 5% 0 50%;
+    width: 45%;
+}
+th:first-child {
+    text-align: right;
+}
+tr:nth-of-type(2) th,tr:nth-of-type(3) th,tr:nth-of-type(4) th {
+    width: 18%;
+    padding: 3vh 0;
+    font-size: 0.8em;
+    text-align: right;
+}
+tr td:first-child {
+    font-size: 0.8em;
+}
+tr td:nth-child(2) {
+    font-size: 1.2em;
+}
+th,td {
+    border-bottom: 1px solid black;
+}
+/* ---- Button --- */
+#release img {
+    margin: 15vh 5% 15vh 85%;
+}
+/* ---- works Area --- */
+#works {
+    background: #DEB873;
+    color: #7d2222;
+    text-align: right;
+    padding-bottom: 1vh;
+}
+.picR {
+    margin: 0 6.5% 18vh 5%;
+}
+.picL {
+    margin: 0 6.5% 18vh 5%;
+}
+.first {
+    background: url(../img/bg-marconatto-1.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 55%;
+}
+.second {
+    background: url(../img/kathe_cover-1.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 55%;
+    text-align: right;
+}
+.third {
+    background: url(../img/bg-nicole-1.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 55%;
+}
+.fourth {
+    background: url(../img/boa_cover-1.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 55%;
+    text-align: right;
+}
+/* ---- contact Area --- */
+#contact {
+    background: #d2d2d2;
+    color: #1d8883;
+    text-align: left;
+    padding-bottom: 1vh;
+}
+#contact p:last-of-type {
+    padding: 0 33% 10vh;
+    font-size: 1.2em;
+}
+#contact ul {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+    text-align: right;
+    margin: 0 5% 6vh ;
+    line-height: 2em;
+    list-style-type: none;
+}
+a:link {
+    color: #1d8883;
+    text-decoration: none;
+}
+a:visited {
+    color: #1d8883;
+}
+a:active {
+    text-decoration: underline;
+}
