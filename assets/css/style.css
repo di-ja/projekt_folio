@@ -40,7 +40,6 @@ header ul li:nth-child(2) {
 }
 header {
     border-bottom: 1px solid #002a5a;
-    background: rgba(239, 231, 215, 0.8);
     position: fixed;
     width: 100%;
 }
@@ -152,26 +151,26 @@ th,td {
     background: url(../img/bg-marconatto-1.jpg);
     background-repeat: no-repeat;
     background-position: right;
-    background-size: 55%;
+    background-size: contain;
 }
 .second {
     background: url(../img/kathe_cover-1.jpg);
     background-repeat: no-repeat;
     background-position: left;
-    background-size: 55%;
+    background-size: contain;
     text-align: right;
 }
 .third {
     background: url(../img/bg-nicole-1.jpg);
     background-repeat: no-repeat;
     background-position: right;
-    background-size: 55%;
+    background-size: contain;
 }
 .fourth {
     background: url(../img/boa_cover-1.jpg);
     background-repeat: no-repeat;
     background-position: left;
-    background-size: 55%;
+    background-size: contain;
     text-align: right;
 }
 /* ---- contact Area --- */
